@@ -1,0 +1,119 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fmodern\fprq1 Lucida Console;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green77\blue187;\red0\green0\blue0;\red0\green0\blue255;\red0\green191\blue0;\red191\green0\blue191;\red191\green191\blue0;\red0\green191\blue191;}
+{\*\generator Riched20 10.0.18362}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qc\cf1\b\f0\fs40\lang9\par
+COMMANDS IN GIT \par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\cf2\fs32 git status : \b0 check status of file \cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 git init :\b0  initialize the current directory and create .git file\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 git add --a (git add .) :\b0  stage all files which present in .git folder\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 git add \cf0 filename.extension : \b0 stage particular file\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 git restore --staged \cf0 filename.extension : \b0 used to unstage the file befor commit\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 git commit -m "message type here which is related to changes" :\b0  commit the file of if want to give some msg do also in message type area (snapshot is done after this nothing to commit even if made any changes)\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 git log : \b0 to check the commit (no. of commit)\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 rm -rf .git : \b0 remove all the files generated in git and also git folder deleted\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 cd : \b0 change directory\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 pwd : \b0 present working directory\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 ls : \b0 list the content(files)\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 git log : \b0 check the changes made in directory by authors\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 git log -p : \b0 show detailed diff of all changes made in repository clone by different authors\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 git log -p -2 : \b0 show detailed diff of 2 changes made in repository clone by 2 authors only\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 git log --stat : \b0 show short summery of diff of all changes made in repository clone by different authors \cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 git log --pretty=oneline : \b0 show all commits in oneline by this command\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 git log --pretty=short : \b0 show all commits in short way by this command\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 git log --pretty=full : \b0 show all commits in full way by this command\ul .(Author --> it means who build that repository & Commit --> are those who made changes in that repository made by author)\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\ulnone\fs32 git log --pretty=format:<string> : \b0 show information in form what we want that depends on format write in string.\cf1\ul\b\fs40 Ex.\ulnone\b0  \cf0\fs32 git log --pretty=format:"%h -- %an" ( different strings used              through link --> {{\field{\*\fldinst{HYPERLINK https://git-scm.com/docs/git-log }}{\fldrslt{https://git-scm.com/docs/git-log\ul0\cf0}}}}\cf1\ul\b\f0\fs40\par
+{\pntext\f2\'B7\tab}\cf2\ulnone\fs32 git log --since=2.days : \b0 shows 2 days work\cf1\ul\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\ulnone\fs32 git log --since=2.weeks : \b0 shows 2 weeks work\cf1\ul\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\ulnone\fs32 git log --since=2.months : \b0 shows 2 months work\cf1\ul\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\ulnone\fs32 git log --since=2.years : \b0 shows 2 years work\cf1\ul\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\ulnone\fs32 q : \b0 use to quit the session by git log\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 shift + insert : \b0 to paste the copy url\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32 git clone : \b0 copy the url and paste here to make the directory at the current folder and pull content\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32  touch : \b0 to create a file in current folder\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\fs32  touch .gitignore : \b0 it is a file created to ignore any kind of file which we don't want to track in our folder \b like \ul "\b0 error.log"(file) , "dir"(folder) \ulnone etc. Just open the file and type the name or path of file which you want to ignore \b ex. \ul\b0 error.log, *.log (ignore all file of extension .log), dir (folder name), ststic/dir (path), /dir (recent folder or file ignore if same name file or folder present but those are not ignore bcoz of this )  \cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\ulnone\fs32 git diff : \b0 compare working directory to staging directory\cf1\ul\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\ulnone\fs32 git diff --staged : \b0 compare last commit to present stage directory\cf1\ul\b\fs40\par
+{\pntext\f2\'B7\tab}\cf2\ulnone\fs32 git commit -a -m "msg type what u update and where" :\cf1\b0\fs40  \cf0\fs32 for direct commit but only those files which are stage and after that modified\cf1\ul\b\fs40\par
+{\pntext\f2\'B7\tab}\cf0\ulnone\fs32 git rm filename.extension : \b0 use to remove file from the folder not manually through git terminal\cf1\ul\b\fs40\par
+{\pntext\f2\'B7\tab}\cf0\ulnone\fs32 git mv previousfilename.extension newfilename.extension : \b0 use to rename or move the file not manually through git terminal\cf1\ul\b\fs40\par
+{\pntext\f2\'B7\tab}\cf0\ulnone\fs32 git rm --cached filename.extension : \b0 some file which is track previously and then palce in gitignore and then if some changes are made after that we check status it may shows the changes(even it is in gitignore).So , we explicitly told the git we dont want to track this file by this \ul command\cf1\b\fs40\par
+{\pntext\f2\'B7\tab}\cf0\ulnone\fs32 git commit --amend : \b0 open a new terminal \b vm \b0 and for type use key \b i \b0 and type what you want to change or message, press \b esc + :wq \b0 and then \b enter ( \b0 get back on git bash \b )\cf1\ul\fs40\par
+{\pntext\f2\'B7\tab}\cf0\ulnone\fs32 git checkout -- filename.extension  : \b0 this command used to restore the data in a \i single file\i0  which is deleted and modified by new data and we lost the new data completely and get back the previous one (\ul nothing affect ot this command on .gitignore\ulnone )\cf1\ul\b\fs40\par
+{\pntext\f2\'B7\tab}\cf0\ulnone\fs32 git checkout -f : \b0 this command used to restore the data in a \i mltiple file\i0  which is deleted and modified by new data\cf1\ul\b\fs40\par
+{\pntext\f2\'B7\tab}\cf0\ulnone\fs32 Below commands are directly used to understand the concept of \ul remote\ulnone :\cf1\ul\fs40\par
+
+\pard\fi-360\li720\sa200\sl276\slmult1\cf4\ulnone\b0\f1\fs20\par
+\f0\fs28 Yograj@DESKTOP-J3PSA0B \cf5 MINGW32 \cf6 ~/Desktop/git\cf7  (master)\par
+\cf0\b I/p - \b0 $ git remote\par
+\par
+\cf4 Yograj@DESKTOP-J3PSA0B \cf5 MINGW32 \cf6 ~/Desktop/git\cf7  (master)\par
+\cf0\b I/p - \b0 $ git remote add origin {{\field{\*\fldinst{HYPERLINK https://github.com/manvirajawat/GitDemo.git }}{\fldrslt{https://github.com/manvirajawat/GitDemo.git\ul0\cf0}}}}\f0\fs28\par
+\lang1033 --> origin is the name of this copy url ({\lang9{\field{\*\fldinst{HYPERLINK https://github.com/manvirajawat/GitDemo.git }}{\fldrslt{https://github.com/manvirajawat/GitDemo.git\ul0\cf0}}}}\f0\fs28 )\par
+\lang9\par
+\par
+\cf4 Yograj@DESKTOP-J3PSA0B \cf5 MINGW32 \cf6 ~/Desktop/git\cf7  (master)\par
+\cf0\b I/p - \b0 $ git remote\par
+\b O/p - \b0 origin\par
+\par
+\cf4 Yograj@DESKTOP-J3PSA0B \cf5 MINGW32 \cf6 ~/Desktop/git\cf7  (master)\par
+\cf0\b I/p - \b0 $ git remote -v\par
+\b O/p - \b0 origin \b  {\b0{\field{\*\fldinst{HYPERLINK https://github.com/manvirajawat/GitDemo.git }}{\fldrslt{https://github.com/manvirajawat/GitDemo.git\ul0\cf0}}}}\b0\f0\fs28  (fetch)\par
+origin \b  {\b0{\field{\*\fldinst{HYPERLINK https://github.com/manvirajawat/GitDemo.git }}{\fldrslt{https://github.com/manvirajawat/GitDemo.git\ul0\cf0}}}}\b0\f0\fs28  (push)\par
+\cf4 Yograj@DESKTOP-J3PSA0B \cf5 MINGW32 \cf6 ~/Desktop/git\cf7  (master)\par
+\cf0\b I/p - \b0 $ git push -u origin master\par
+--> this command used to push the files ingithub repository after creating ssh id to allow the push operation with PC\par
+\par
+\cf4 Yograj@DESKTOP-J3PSA0B \cf5 MINGW32 \cf6 ~/Desktop/git\cf7  (master)\par
+\cf0\b I/p - \b0 $ ssh-keygen -t rsa -b 4096 -C "manvi18rajawat@gmail.com"\par
+\b O/p - \b0 Generating public/private rsa key pair.\par
+\par
+Enter file in which to save the key (/c/Users/Yograj/.ssh/id_rsa): Created directory '/c/Users/Yograj/.ssh'.\par
+Enter passphrase (empty for no passphrase):\par
+Enter same passphrase again:\par
+Your identification has been saved in /c/Users/Yograj/.ssh/id_rsa\par
+Your public key has been saved in /c/Users/Yograj/.ssh/id_rsa.pub\par
+The key fingerprint is:\par
+SHA256:zYIYiz/oMNuC9WpuHtq7t6V449ipBtrCKZpR+XTCCNI manvi18rajawat@gmail.com\par
+The key's randomart image is:\par
++---[RSA 4096]----+\par
+|                 |\par
+| .               |\par
+|o E .            |\par
+|.. = + . o       |\par
+|  = * o S o      |\par
+|...= o   .       |\par
+|B++.+ .          |\par
+|*&====           |\par
+|BO&O*o           |\par
++----[SHA256]-----+\f1\par
+\cf4\f0 Yograj@DESKTOP-J3PSA0B \cf5 MINGW32 \cf6 ~/Desktop/git\cf7  (master)\par
+\cf0\b I/p - \b0 $ eval $(ssh-agent -s)\par
+\b O/p - \b0 Agent pid 756\par
+\par
+\cf4 Yograj@DESKTOP-J3PSA0B \cf5 MINGW32 \cf6 ~/Desktop/git\cf7  (master)\par
+\cf0\b I/p - \b0 $ ssh-add ~/.ssh/id_rsa\par
+\b O/p - \b0 Identity added: /c/Users/Yograj/.ssh/id_rsa (manvi18rajawat@gmail.com)\par
+\par
+\cf4 Yograj@DESKTOP-J3PSA0B \cf5 MINGW32 \cf6 ~/Desktop/git\cf7  (master)\par
+\cf0\b I/p - \b0 $ tail ~/.ssh/id_rsa.pub\par
+\b O/p - \b0 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDCoSOyeZXHB+nd7xvX3kkEmi8h+vrkD77rmSUgJO3Y2qkdixPhdRw9zwo9lwJ6aXeSZy4km9oPpRQ4YRzZ8N0ScbqYStuHt0n2oqYc6iJdT24QPk3lMvlhcRKIm+tZ/i66kMzCbF6awEI0BRHIkwV8hHZl9KvrStBhEX/sRuOub6B3C6TCwqOSInbDToQl5lAN2rMPE+jZ0Cdh/RZBRLJcmHiUAu0AbaVqIaCuPxoHqaerH7vKJ2fbbMrWMBgpYSmuiQ8bEnneMI1w7FOQcc0k6A+yLLuI90rnXQkZqdJUi3rrE5eBdDY+jrV5cyjIHutdUDjpUnQK6t1CQ6nPi4QMIybfmm1b/WfHUQ4RYI+Zt4/OaVKYN4tD8xqXk+3vThfWzYWR5bMp7C77xjnINrFR8ZxAw6z+UGRb53+61SckhyEwbP8rk5OJmlDiRAsydNCsdbilQKjUTGWoPRHCo2cgsWIp7KcNnqQqUy180I2HDhqnuR+a40t4myNCDw8mFi64oDArSpWjXSXmGHwMGqm9DRJ1pLCxd3ijsYSYEtrYfTB/k5frFQ5zAVA4QAA5XCiQ5Qt+SPNmU8MDqJtzgrlqEaiFbLe8aT//geFUS3t4SLqgWlkhZk33d/0VVz2POKDnMh40dxXRm4ANVZG3N35DiVUjBoYGzbKy090KkL4gtQ== manvi18rajawat@gmail.com\par
+\cf4 Yograj@DESKTOP-J3PSA0B \cf5 MINGW32 \cf6 ~/Desktop/git\cf7  (master)\par
+\cf0\b I/p - \b0 $ git push -u origin master\par
+\b O/p - \b0 Enumerating objects: 13, done.\par
+Counting objects: 100% (13/13), done.\par
+Delta compression using up to 2 threads\par
+Compressing objects: 100% (11/11), done.\par
+Writing objects: 100% (13/13), 2.87 KiB | 122.00 KiB/s, done.\par
+Total 13 (delta 4), reused 0 (delta 0), pack-reused 0\par
+remote: Resolving deltas: 100% (4/4), done.\par
+To {{\field{\*\fldinst{HYPERLINK https://github.com/manvirajawat/GitDemo.git }}{\fldrslt{https://github.com/manvirajawat/GitDemo.git\ul0\cf0}}}}\f0\fs28\par
+ * [new branch]      master -> master\par
+Branch 'master' set up to track remote branch 'master' from 'origin'.\f1\par
+\fs18\par
+\par
+
+\pard\sa200\sl276\slmult1\cf1\ul\b\f0\fs40\par
+\par
+}
+ 

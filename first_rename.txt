@@ -1,0 +1,6 @@
+hello this is my first git file.
+i want to commit this.
+chnages for direct commit
+
+
+
